@@ -20,3 +20,13 @@ I just stop the service B so we get this fallback message
 Circuit breaker from closed to open again
 <br>
 ![image](https://user-images.githubusercontent.com/36573782/190925750-df583914-e9f6-4b54-a2a4-20dc01288e52.png)
+<br>
+Now i commented the @CircuitBreaker and try on @Retry 
+<br>
+![image](https://user-images.githubusercontent.com/36573782/190926907-5b870774-2728-4834-ad87-b3594accca62.png)
+<br>
+![image](https://user-images.githubusercontent.com/36573782/190927286-caa486d4-a450-4aa0-acf8-e55fac5d7bb0.png)
+<br>
+Try tu use RateLimiter
+<br>
+![image](https://user-images.githubusercontent.com/36573782/190927453-59cae5b9-d17b-4ced-9471-b61b000294c9.png)
